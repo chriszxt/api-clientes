@@ -68,3 +68,17 @@ VALUES ('Produto Teste', 'Produto para teste', 111.11, 11);
 
 INSERT INTO usuarios (nome, email, senha, perfil)
 VALUES ('Administrador', 'admin@teste.com', '123456', 'admin');
+
+show tables;
+
+desc clientes;
+desc produtos;
+desc usuarios;
+desc pedidos;
+desc itens_pedido;
+
+SELECT * FROM clientes;
+SELECT * FROM produtos;
+SELECT * FROM usuarios;
+SELECT * FROM pedidos;
+SELECT * FROM itens_pedido;
